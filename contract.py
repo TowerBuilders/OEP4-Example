@@ -4,7 +4,7 @@ OntCversion = '2.0.0'
 OEP4 Example Contract
 
 Written: July 21st, 2019
-Author: Wyatt Mufson <wyatt@ryu.games>
+Author: Wyatt Mufson <wyatt@towerbuilders.org>
 
 Copyright (C) 2019 TowerBuilders
 Available free of charge under the MIT license
