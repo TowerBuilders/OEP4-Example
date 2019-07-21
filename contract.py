@@ -166,7 +166,7 @@ def transferMulti(args):
 
 def approve(owner, spender, amount):
     """
-    Allows the spender to transfer tokens onbehalf of the owner
+    Allows the spender to transfer tokens on behalf of the owner
 
     :param owner: The address granting permissions
     :param spender: The address that will be able to transfer the owner's tokens
