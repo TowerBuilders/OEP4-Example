@@ -160,7 +160,7 @@ def transferMulti(args):
     """
     for p in args:
         Require(len(p) == 3)
-        transfer(p[0], p[1], p[2])
+        Require(transfer(p[0], p[1], p[2]))
     return True
 
 
