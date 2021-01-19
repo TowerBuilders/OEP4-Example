@@ -100,14 +100,14 @@ def decimals():
     """
     Returns the amount of decimals of the token
     """
-    return DECIMALS
+    return DECIMALS + 0
 
 
 def totalSupply():
     """
     Returns the total supply of the token
     """
-    return Get(ctx, SUPPLY_KEY)
+    return Get(ctx, SUPPLY_KEY) + 0
 
 
 def balanceOf(address):
@@ -118,7 +118,7 @@ def balanceOf(address):
     """
     RequireIsAddress(address)
     key = getBalanceKey(address)
-    return Get(ctx, key)
+    return Get(ctx, key) + 0
 
 
 def transfer(from_address, to_address, amount):
@@ -235,7 +235,7 @@ def allowance(owner, spender):
     :param spender:  The spender address
     """
     key = getApprovalKey(owner, spender)
-    return Get(ctx, key)
+    return Get(ctx, key) + 0
 
 # Helpers
 
